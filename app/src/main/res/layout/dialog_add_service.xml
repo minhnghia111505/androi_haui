@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etTenDichVu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên dịch vụ (VD: Giặt sấy)" />
+
+    <EditText
+        android:id="@+id/etDonViTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Đơn vị tính (kg / cái / bộ)" />
+
+    <EditText
+        android:id="@+id/etDonGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Đơn giá (VNĐ)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Mô tả dịch vụ" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etTenKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khách hàng" />
+
+    <EditText
+        android:id="@+id/etSoDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Số điện thoại"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Địa chỉ" />
+</LinearLayout>
