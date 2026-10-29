@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Base app theme - Material Design 3 -->
-    <style name="Theme.QLSV" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.QLTGL" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
@@ -31,24 +31,24 @@
     </style>
 
     <!-- Splash Theme -->
-    <style name="Theme.QLSV.Splash" parent="Theme.QLSV">
+    <style name="Theme.QLTGL.Splash" parent="Theme.QLTGL">
         <item name="android:windowBackground">@color/blue_primary</item>
     </style>
 
     <!-- Custom Style for Circular Images -->
-    <style name="ShapeAppearance.QLSV.Circle" parent="ShapeAppearance.Material3.SmallComponent">
+    <style name="ShapeAppearance.QLTGL.Circle" parent="ShapeAppearance.Material3.SmallComponent">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
 
     <!-- Custom Style for Rounded Cards -->
-    <style name="Widget.QLSV.Card" parent="Widget.Material3.CardView.Elevated">
+    <style name="Widget.QLTGL.Card" parent="Widget.Material3.CardView.Elevated">
         <item name="cardCornerRadius">16dp</item>
         <item name="cardElevation">2dp</item>
     </style>
 
     <!-- TextInputLayout style -->
-    <style name="Widget.QLSV.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+    <style name="Widget.QLTGL.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
         <item name="boxCornerRadiusTopStart">12dp</item>
         <item name="boxCornerRadiusTopEnd">12dp</item>
         <item name="boxCornerRadiusBottomStart">12dp</item>
@@ -56,7 +56,7 @@
     </style>
 
     <!-- Button style -->
-    <style name="Widget.QLSV.Button" parent="Widget.Material3.Button">
+    <style name="Widget.QLTGL.Button" parent="Widget.Material3.Button">
         <item name="cornerRadius">12dp</item>
         <item name="android:paddingTop">14dp</item>
         <item name="android:paddingBottom">14dp</item>

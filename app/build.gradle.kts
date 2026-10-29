@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.qlsv_kthp"
+    namespace = "com.example.qltgl"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.qlsv_kthp"
+        applicationId = "com.example.qltgl"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

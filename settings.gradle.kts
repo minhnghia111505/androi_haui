@@ -40,7 +40,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "QLSV_KTHP"
+rootProject.name = "QLTGL"
 include(":app")
 
  
